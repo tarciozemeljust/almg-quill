@@ -1,0 +1,99 @@
+:root {
+  --width: 75vw;
+  --toolbar-button-color: #444;
+  --toolbar-active-button-color: #06c;
+}
+
+.ql-editor {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 500px;
+  padding-bottom: 15vh;
+  padding-top: 40px;
+}
+
+.ql-editor p {
+  margin-bottom: 15px;
+}
+
+.ql-toolbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: var(--width);
+  z-index: 9;
+}
+
+.ql-custom-icon {
+  display: inline-flex;
+  fill: var(--toolbar-button-color);
+  height: 100%;
+  width: 20px;
+}
+
+.ql-custom-icon:hover {
+  fill: var(--toolbar-active-button-color);
+}
+
+.u-invisible-char {
+  color: var(--toolbar-active-button-color);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.u-invisible-char--big {
+  display: inline-block;
+  transform: scale(1.5) translateY(1px);
+}
+
+/* .has-paragraph-active .quill-editor--main {
+  opacity: 0;
+}
+
+.quill-editor.ql-container {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 50%;
+  padding-top: 40px;
+}
+
+.quill-editor.ql-container p {
+  margin-bottom: 15px;
+}
+
+.ql-toolbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: var(--width);
+  z-index: 9;
+}
+
+.has-paragraph-active .ql-toolbar .ql-paragraph .ql-fill {
+  fill: var(--toolbar-active-button-color);
+}
+
+.quill-editors-container {
+  position: relative;
+  max-width: var(--width);
+}
+
+.quill-editor--all-chars.ql-container {
+  position: absolute;
+  top: 0;
+  max-width: var(--width);
+
+  display: none;
+}
+
+.has-paragraph-active .quill-editor--all-chars {
+  display: initial;
+} */
+
+/**/ /**/ /**/ /**/
+/* .ql-toolbar {
+  display: none;
+} */
+/**/ /**/ /**/ /**/
